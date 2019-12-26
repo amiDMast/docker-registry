@@ -1,16 +1,10 @@
 #!/usr/bin/python
 import os
 
-
 os.system("command")
 print("Registry install")
-#domain = raw_input("Type domain address: ")
-#user = raw_input("Type username: ")
-#password = raw_input("Type password: ")
-#email = raw_input("Type email for ssl: ")
 dir1 = "/etc/letsencrypt/live/"
 dir2 = "/crtdata/"
-#cmd_line = "certbot certonly --standalone --preferred-challenges http --non-interactive  --staple-ocsp --agree-tos -m " + email + " -d " + domain
 path_auth = "./genpass/auth.txt"
 path_command = "./certs/command_file.txt"
 
